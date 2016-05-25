@@ -14,7 +14,7 @@ function findPrime(number) {
     } else
       number[i] = 'I';   //assigns I to 5
   }
-  console.log(number.join(" "));   // joins the elements of the array without commas
+  console.log(number.join(""));   // joins the elements of the array without commas
 }
 findPrime(prime);
 // console.log(prime);
